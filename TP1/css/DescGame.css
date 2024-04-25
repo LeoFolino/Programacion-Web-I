@@ -31,21 +31,39 @@ body header nav a {
     display:block;
 }
 
-article div {
-    align-content: center; /* revisar */
+div {
+    width: 100%;
+    text-align: center;
 }
 
-
-article img {
+div img {
     width: 30%;
-    padding: 20px;
+    padding: 30px;
 }
 
-aside{
-    background-color: rgb(129, 11, 11);
+section img{
+    width: 32%;
+    padding-left: 8px;
+}
+
+#RR {
+    padding: 30px;
+    border: initial;
 }
 
 .Reseña {
-    padding-left: 40px;
+    width: 600px;
+    border: inset;
+    display:inline-block;
 }
 
+.username {
+    border: inset;
+    width: 70%;
+}
+
+.rating {
+    width: auto;
+    border-bottom: inset;
+    display: flex;
+}
