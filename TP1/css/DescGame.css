@@ -57,13 +57,16 @@ section img{
     display:inline-block;
 }
 
+.NegroPadre {
+    width: 50%;
+}
+
 .username {
     border: inset;
     width: 70%;
 }
 
 .rating {
-    width: auto;
+    width: 30%;
     border-bottom: inset;
-    display: flex;
 }
