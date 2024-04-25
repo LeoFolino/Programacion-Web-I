@@ -1,10 +1,12 @@
 html{
-    background-color: rgb(54, 30, 65);
+    background-color: rgb(0, 0, 0);
 }
-
+body{
+    background-color: rgb(117, 0, 117);
+}
 body header nav {
     padding: 15px;
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(0, 0, 0);
     box-sizing: border-box;
     display:inline-flex;
     width: 100%;
@@ -82,10 +84,4 @@ footer {
 #Games .Games img{
     width: 100%;
     
-}
-
-.DescripGP {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: rgb(255, 255, 255);
 }
