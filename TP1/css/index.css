@@ -14,7 +14,7 @@ body header nav img{
     width: 50px;
     height: 50px;
     padding: 5px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 body header nav a {
@@ -31,7 +31,6 @@ body header nav a {
 
 article a{
     color: blue;
-    padding-top: 150px;
 }
 
 body main section h2{
@@ -40,24 +39,18 @@ body main section h2{
     padding-left: 30px;
 }
 
-section article img{
-    width: 45%;
-}
-
 section article {
-    display: flex;
+    display:flex;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color: rgb(81, 81, 151);
-    padding: 0px;
     font-family: 'Lucida Sans';
-    box-sizing: border-box;
+    margin: 10px;
 }
 
 section article img{
     width: 500px;
-    height: auto;
 }
 
 footer {
@@ -65,3 +58,34 @@ footer {
     text-align: center;
 }
 
+#Games{
+    padding: 10px;
+}
+
+#Games .Games{
+    display: inline-block;
+    width: 40%;
+    background-color: rgb(103, 17, 153);
+    margin: 50px;
+    padding: 0px;
+    border-style:outset;
+    border-width: 13px;
+    border-color: blueviolet;
+    
+}
+
+.Games h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+#Games .Games img{
+    width: 100%;
+    
+}
+
+.DescripGP {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
