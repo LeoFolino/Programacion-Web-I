@@ -31,20 +31,47 @@ body header nav a {
     display:block;
 }
 
-div {
-    width: 100%;
+.styleback{
+    background-color: rgb(131, 9, 9);
+}
+
+.starter {
+    background-color: rgb(139, 0, 0);
+}
+
+.logo {
     text-align: center;
 }
 
-div img {
-    width: 30%;
-    padding: 30px;
+.logo img{
+    width: 20%;
 }
 
-section img{
+div section img{
     width: 32%;
-    padding-left: 8px;
+    display: inline;
+    padding: 8px;
 }
+
+aside {
+    background-color: blue;
+    border-radius: 20px;
+}
+
+aside p {
+    padding: 20px;
+}
+
+.styleback h2{
+    width: 170px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    border: outset;
+}
+
 
 #RR {
     margin-left: 200px;
