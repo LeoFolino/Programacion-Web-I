@@ -60,16 +60,12 @@ footer {
     text-align: center;
 }
 
-#Games{
-    padding: 10px;
-}
-
 #Games .Games{
     display: inline-block;
     width: 40%;
     background-color: rgb(103, 17, 153);
-    margin: 50px;
-    padding: 0px;
+    margin: 40px;
+    padding: 2px;
     border-style:outset;
     border-width: 13px;
     border-color: blueviolet;
@@ -84,4 +80,15 @@ footer {
 #Games .Games img{
     width: 100%;
     
+}
+
+#Games .Games a{
+    margin: 45%;
+    border: solid;
+    border-color: black ;
+    background-color: black;
+    font-family: Helvetica;
+    color: blueviolet;
+    text-decoration: none;
+    border-radius: 5px;
 }
