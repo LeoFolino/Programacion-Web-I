@@ -64,7 +64,7 @@ aside p {
     padding: 20px;
 }
 
-.styleback h2{
+.styleback h3 {
     width: 170px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 238, 0);
@@ -79,7 +79,7 @@ aside p {
     border: initial;
 }
 
-#RR h2 {
+#RR h2  {
     padding-left: 250px;
     font-family: 'Courier New', Courier, monospace;
 }

@@ -35,7 +35,7 @@ article a{
     color: blue;
 }
 
-body main section h2{
+body main section h1{
     font-family: 'Segoe UI';
     color: white;
     padding-left: 30px;
@@ -60,16 +60,18 @@ footer {
     text-align: center;
 }
 
-#Games .Games{
+#GamesView .Games{
     display: inline-block;
     width: 40%;
     background-color: rgb(103, 17, 153);
-    margin: 40px;
     padding: 2px;
     border-style:outset;
     border-width: 13px;
     border-color: blueviolet;
-    
+}
+
+#GamesView {
+    text-align: center;
 }
 
 .Games h1{
@@ -77,12 +79,12 @@ footer {
     font-size: 30px;
 }
 
-#Games .Games img{
+#GamesView .Games img{
     width: 100%;
-    
+    align-items: center;
 }
 
-#Games .Games a{
+#GamesView .Games a{
     margin: 45%;
     border: solid;
     border-color: black ;
